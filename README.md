@@ -41,11 +41,11 @@ selections.
 - run scenario
 ## Github Actions Integration
 This project includes a fully automated CI pipeline using GitHub Actions, designed to run tests on every push or pull request to the main branch.
-# What it does?
+### What it does?
 - Builds the project using Gradle on a Windows runner.
 - Sets up JDK 17 with Temurin distribution.
 - Executes all Cucumber scenarios defined in the .feature files
-# Workflow File
+### Workflow File
 The CI configuration is defined in .github/workflows/run-tests.yml. Here's a quick overview of the key steps:
 - Checkout code
 - Set up JDK 17
