@@ -4,23 +4,23 @@
 ## Scenerio
 1. Navigate to: https://www.shohoz.com/air-tickets
 2. Select the following flight search criteria: 
- From: Chattogram 
- To: Dhaka 
- Departure Date: 23 September, 2025 
- Travelers: 2 Adults 
- Class: Premium Economy 
+- From: Chattogram 
+- To: Dhaka 
+- Departure Date: 23 September, 2025 
+- Travelers: 2 Adults 
+- Class: Premium Economy 
 3. Click Done, then click Search. 
 4. In the search results: 
- Filter and select US-Bangla Airlines. 
- Scroll down and click BOOK TICKET on the last flight. 
+- Filter and select US-Bangla Airlines. 
+- Scroll down and click BOOK TICKET on the last flight. 
 5. Verify that the &quot;Review fare to Dhaka&quot; modal appears. 
 6. Verify that the Total Price shown in the modal matches the price displayed in the flight list. 
 7. Click CONTINUE. 
 8. Close the sign-in modal. 
 9.  Capture the prices of the currently listed US-Bangla Airlines flights into an array. 
 10.  Modify the filter selection: 
- Deselect US-Bangla Airlines 
- Select Novo Air 
+- Deselect US-Bangla Airlines 
+- Select Novo Air 
 11.  Capture the updated Novo Air flight prices into another array. 
 
 12. Compare the two arrays and:  Assert that there is a price difference between the two airline
@@ -34,12 +34,8 @@ selections.
 - Gradle
 - intellij idea 
   
-
-
 ## How to run this project
 - clone this project
-- hit the following command into the terminal:
-  - gradle clean test
-- For generating Report in Allure hit
-  - allure generate allure-results --clean -o allure-report
-  - allure serve allure-results    
+- open with intellij idea
+- visit .feature file
+- run scenario   
